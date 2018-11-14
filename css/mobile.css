@@ -1,0 +1,38 @@
+/* CSS Document */
+
+
+#top {
+	min-height: 190px;
+	background-image: url(../img/bg-top.png);
+	background-size: cover;
+}
+
+.background-color {
+	background-color: #3494bb;
+}
+
+#sociales {
+	height: 56px;
+	background-image: url(../img/bg-social.jpg);
+}
+
+#esquina {
+	width: 69px;
+	height: 191px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	background-image: url(../img/esquina.png);
+}
+
+.navbar {
+	box-shadow: none;
+    padding: .8rem 1rem;
+}
+.navbar-toggler {
+    position: absolute;
+    top: 12px;
+    right: 100px;
+    z-index: 2;
+}
