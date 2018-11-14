@@ -1,4 +1,7 @@
 /* CSS Document */
+:root{
+  --realce: #47bbea;
+}
 body{
 	font-family: 'futuramedium';
 	font-size: 12px;
@@ -40,7 +43,7 @@ body{
 .navbar-toggler {
     position: absolute;
     top: 12px;
-    right: 100px;
+    right: 50px;
     z-index: 2;
 }
 .redes{
@@ -79,4 +82,22 @@ header{
 }
 .altura{
 	height: 450px;
+}
+.realce{
+	color: var(--realce);
+}
+#nosotros{
+	height: 300px;
+	background-image: url(../img/bgNosotros.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: right 0;
+	color: white;
+}
+#nosotros h2{
+	font-size: 1.5rem;
+}
+#nosotros p{
+	font-size: 0.75rem;
+	padding-left: 1.5rem;
 }
