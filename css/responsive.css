@@ -2,14 +2,15 @@
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-	body{
-		font-size: 13px;
+	html{
+	font-size: 12px;
 	}
+
 }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
-	body{
+	html{
 		font-size: 14px;
 	}
 	.redes{
@@ -32,6 +33,9 @@
 	.altura{
 		height: 850px;	
 	}
+	.alturaNosotros{
+		height: 450px;
+	}
 	#nosotros{
 		height: 450px;
 		background-image: url(../img/bgNosotros.png);
@@ -42,17 +46,22 @@
 	}
 	#nosotros h2{
 		font-size: 2rem;
-		margin-top: 2rem;
 	}
 	#nosotros p{
 		font-size: 1.2rem;
 		padding-left: 0rem;
 	}
+	#servicios h5{
+	font-size: 1rem;
+	}
 }
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
-	body{
+	html{
 		font-size: 16px;
+	}
+	.alturaNosotros{
+		height: 550px;
 	}
 	#nosotros{
 		height: 550px;
@@ -64,30 +73,35 @@
 	}
 	#nosotros h2{
 		font-size: 2.5rem;
-		margin-top: 3.5rem;
 	}
 	#nosotros p{
 		font-size: 1.3rem;
 		margin-top: 0.5rem;
 	}
+	#servicios h5{
+	font-size: 1.2rem;
+	}
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
-	body{
+	html{
 		font-size: 16px;
 	}
+	.alturaNosotros{
+		height: 850px;
+	}
 	#nosotros{
-		height: 650px;
+		height: 850px;
 		background-image: url(../img/bgNosotros.png);
-		background-size: 90%;
+		background-size: 80%;
 		background-repeat: no-repeat;
 		background-position: right 0;
 		color: white;
 	}
 	#nosotros h2{
 		font-size: 2.5rem;
-		margin-top: 5rem;
+		margin-top: -5rem;
 	}
 	#nosotros p{
 		font-size: 1.5rem;
