@@ -73,13 +73,14 @@
 	}
 	#nosotros h2{
 		font-size: 2.5rem;
+		margin-top: -2rem;
 	}
 	#nosotros p{
 		font-size: 1.3rem;
 		margin-top: 0.5rem;
 	}
 	#servicios h5{
-	font-size: 1.2rem;
+	font-size: 0.8rem;
 	}
 }
 
@@ -89,7 +90,7 @@
 		font-size: 16px;
 	}
 	.alturaNosotros{
-		height: 850px;
+		height: 550px;
 	}
 	#nosotros{
 		height: 850px;
@@ -107,4 +108,7 @@
 		font-size: 1.5rem;
 		margin-top: 1rem;
 	}
+	#servicios h5{
+		font-size: 1rem;
+		}
 }
