@@ -1,5 +1,6 @@
 /* CSS Document */
 :root{
+  --primario: #3d86a4;
   --realce: #47bbea;
   --gris: #434343;	
 }
@@ -134,3 +135,82 @@ header{
 	font-size: 0.8rem;
 	color: var(--gris);
 }
+
+#diferenciadores{
+	margin-top: 5rem;
+	width: 100%;
+	height: auto;
+	background-image: url(../img/difBg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.separador {
+	width: 100%;
+	height: 360px;
+}
+.separador2 {
+	width: 100%;
+	height: 100px;
+}
+#btn-dif{
+	font-size: 1.5rem;
+	border-radius: 1rem;
+}
+.list-dif{
+	color: white;
+	font-size: 1.75rem;
+}
+#contact-top{
+	width: 80%;
+	height: 70px;
+    margin-top: -100px;
+	background-color: var(--realce);
+	padding-top: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+#contact-top h5{
+	font-size: 2rem;
+}
+
+/* section redes */
+#redes{
+	width: 100%;
+	height: 100%;
+	padding: 2rem 0 1rem 0;
+	background-color: #456977;
+	background-image: url(../img/footer.png);
+    position: relative;
+}
+#contacto {
+    width: 100%;
+	height: 100%;
+	padding: 2rem 0;
+	background-color: #1b1b1b;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    margin-top: -30px;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 0;
+}
+
+#altura {
+    height: 420px;
+}
+
+
+.md-form input[type=date], .md-form input[type=datetime-local], .md-form input[type=email], .md-form input[type=number], .md-form input[type=password], .md-form input[type=search-md], .md-form input[type=search], .md-form input[type=tel], .md-form input[type=text], .md-form input[type=time], .md-form input[type=url], .md-form textarea.md-textarea {
+
+    border-bottom: 1px solid #47bbea;
+
+}
+.md-form label {
+
+    color: #fff;
+}
+
+
