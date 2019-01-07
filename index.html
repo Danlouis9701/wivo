@@ -2,6 +2,8 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <title>Wivo</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="fonts/fonts.css">
@@ -23,11 +25,11 @@
         <div class="container">
             <div class="row justify-content-end">
                 <div class="col-7 col-md-6 col-lg-4">
-                    <div id="face" class="redes"></div>
-                    <div id="instagram" class="redes"></div>
-                    <div id="linkedin" class="redes"></div>
-                    <div id="twitter" class="redes"></div>
-                    <div id="youtube" class="redes"></div>
+                    <a href="https://www.facebook.com/wivomedia" target="_blank"><div id="face" class="redes"></div></a>
+                    <a href="https://www.instagram.com/wivomedia" target="_blank"><div id="instagram" class="redes"></div></a>
+                    <a href="https://www.linkedin.com/company/wivomedia" target="_blank"><div id="linkedin" class="redes"></div></a>
+                    <a href="https://twitter.com/MediaWivo" target="_blank"><div id="twitter" class="redes"></div></a>
+                    <a href="https://www.youtube.com/channel/UCmU51CjTrP6jtk0XOKDb5Fw" target="_blank"><div id="youtube" class="redes"></div></a>
                 </div>
                 <div class="col-5 col-md-4 col-lg-4">
                     <p class="white-text pt-3 float-lg-right"><img src="img/redes/tel.png" id="tel"> 52 55 5202 1600</p>
@@ -39,7 +41,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark background-color">
         <div class="container">
             <!-- Navbar brand -->
-            <a class="navbar-brand" href="#"><img src="img/logoNav.png" alt="" id="logoNav"></a>
+            <a class="navbar-brand" href="#" onclick="$('#header').animatescroll({scrollSpeed:2000,easing:'easeOutCirc'});"><img src="img/logoNav.png" alt="" id="logoNav"></a>
 
             <!-- Collapse button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,16 +54,16 @@
                 <!-- Links -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#" onclick="$('#nosotros').animatescroll({scrollSpeed:2000,easing:'easeOutCirc'});">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios</a>
+                        <a class="nav-link" href="#" onclick="$('#servicios').animatescroll({scrollSpeed:2000,easing:'easeOutCirc'});">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Proyectos</a>
+                        <a class="nav-link" href="#" onclick="$('#diferenciadores').animatescroll({scrollSpeed:2000,easing:'easeOutCirc'});">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#" onclick="$('#contact-top').animatescroll({scrollSpeed:2000,easing:'easeOutCirc'});">Contacto</a>
                     </li>
                 </ul>
                 <!-- Links -->
@@ -81,7 +83,7 @@
                     <img src="img/elipseIzq.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-6">
-                    <img src="img/wivoLogo.svg" alt="" class="img-fluid">
+                    <img src="img/wivoLogo.svg" alt="" class="img-fluid wow zoomIn" data-wow-offset="100" data-wow-duration="2s">
                 </div>
                 <div class="col-3 col-sm-2 col-md-3 pr-0">
                     <img src="img/elipseDer.png" class="img-fluid float-right mt-5" alt="">
@@ -93,7 +95,7 @@
     <section id="nosotros" class="py-5">
         <div class="container">
             <div class="row alturaNosotros justify-content-end align-items-center">
-                <div class="col-12 col-md-9">
+                <div class="col-12 col-md-9 wow fadeInRight">
                     <h2 class="text-right">Quienes Somos</h2>
                     <p class="text-right"><span class="realce">Wivo Media</span> es una empresa especializada en el diseño,
                         desarrollo e implementación de estrategias efectivas
@@ -111,7 +113,7 @@
             <div class="row mx-0">
                 <div class="col-12 text-center my-5">
                     <h2 class="titulos text-center mb-3">Servicios</h2>
-                    <img src="img/wlab.png" class="img-fluid" alt="">
+                    <img src="img/wlab.png" class="img-fluid wow fadeIn" alt="">
                 </div>
             </div>
         </div>
@@ -123,45 +125,45 @@
 
                 <div class="col-8">
                     <div class="row justify-content-center">
-                        <div class="col-4 col-lg-2 text-center">
+                        <div class="col-4 col-lg-2 text-center wow zoomIn">
                             <img src="img/servicios/planning.png" alt="" class="img-fluid">
                             <h5>MEDIA PLANNING</h5>
                         </div>
-                        <div class="col-4 col-lg-2 text-center">
+                        <div class="col-4 col-lg-2 text-center wow zoomIn">
                             <img src="img/servicios/paid.png" alt="" class="img-fluid">
                             <h5>PAID MEDIA</h5>
                         </div>
                         <!--Separador  de columnas -->
                         <div class="w-100 d-block d-md-none"></div>
 
-                        <div class="col-4 col-lg-2 text-center">
+                        <div class="col-4 col-lg-2 text-center wow zoomIn">
                             <img src="img/servicios/performance.png" alt="" class="img-fluid">
                             <h5>PERFORMANCE</h5>
                         </div>
-                        <div class="col-4 col-lg-2 text-center">
+                        <div class="col-4 col-lg-2 text-center wow zoomIn">
                             <img src="img/servicios/inteligencia.png" alt="" class="img-fluid">
                             <h5>INTELIGENCIA DIGITAL</h5>
                         </div>
                     </div>
 
                     <div class="row justify-content-around mt-5">
-                        <div class="col-4 col-md-2 text-center">
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
                             <img src="img/servicios/digital.png" alt="" class="img-fluid">
                             <h5>DIGITAL ADVERTISING SOLUTIONS</h5>
                         </div>
-                        <div class="col-4 col-md-2 text-center">
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
                             <img src="img/servicios/inapp.png" alt="" class="img-fluid">
                             <h5>INAPP ADS</h5>
                         </div>
-                        <div class="col-4 col-md-2 text-center">
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
                             <img src="img/servicios/geoq.png" alt="" class="img-fluid">
                             <h5>GEOQ</h5>
                         </div>
-                        <div class="col-4 col-md-2 text-center">
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
                             <img src="img/servicios/selling.png" alt="" class="img-fluid">
                             <h5>WHATSAPP SELLING</h5>
                         </div>
-                        <div class="col-4 col-md-2 text-center">
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
                             <img src="img/servicios/social_media.png" alt="" class="img-fluid">
                             <h5>SOCIAL MEDIA SELECT</h5>
                         </div>
@@ -169,22 +171,22 @@
                         <!--Separador  de columnas -->
                         <div class="w-100 d-none d-md-block mt-5"></div>
 
-                        <div class="col-4 col-md-2 text-center">
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
                             <img src="img/servicios/games.png" alt="" class="img-fluid">
                             <h5>MOBILE GAMES ADDS</h5>
                         </div>
-                        <div class="col-4 col-md-2 text-center">
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
                             <img src="img/servicios/marketing.png" alt="" class="img-fluid">
                             <h5>INBOUND MARKETING</h5>
                         </div>
-                        <div class="col-4 col-md-2 text-center">
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
                             <img src="img/servicios/wifi.png" alt="" class="img-fluid">
                             <h5>SOCIAL WIFI</h5>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-12 text-center my-5">
+                        <div class="col-12 text-center my-5 wow zoomIn">
                             <h2 class="subtituloServ text-center mb-0 mb-md-3">
                                 Branding, Brand Add Ons y Brand Management
                             </h2>
@@ -192,19 +194,19 @@
                     </div>
 
                     <div class="row justify-content-center mt-0 mt-md-5">
-                        <div class="col-4 col-md-3 text-center">
+                        <div class="col-4 col-md-3 text-center wow zoomIn">
                             <img src="img/servicios/brands.png" alt="" class="img-fluid">
                             <h5>IDENTIDAD CORPORATIVA</h5>
                         </div>
-                        <div class="col-4 col-md-3 text-center">
+                        <div class="col-4 col-md-3 text-center wow zoomIn">
                             <img src="img/servicios/apps.png" alt="" class="img-fluid">
                             <h5>DESARROLLO WEB Y APPS</h5>
                         </div>
-                        <div class="col-4 col-md-3 text-center">
+                        <div class="col-4 col-md-3 text-center wow zoomIn">
                             <img src="img/servicios/animacion.png" alt="" class="img-fluid">
                             <h5>ANIMACIÓN DIGITAL</h5>
                         </div>
-                        <div class="col-4 col-md-3 text-center">
+                        <div class="col-4 col-md-3 text-center wow zoomIn">
                             <img src="img/servicios/grafico.png" alt="" class="img-fluid">
                             <h5>DISEÑO GRÁFICO Y EDITORIAL</h5>
                         </div>
@@ -212,11 +214,11 @@
                         <!--Separador  de columnas -->
                         <div class="w-100 d-none d-md-block mt-5"></div>
 
-                        <div class="col-4 col-md-3 text-center">
+                        <div class="col-4 col-md-3 text-center wow zoomIn">
                             <img src="img/servicios/fotografia.png" alt="" class="img-fluid">
                             <h5>FOTOGRAFÍA Y VIDEO</h5>
                         </div>
-                        <div class="col-4 col-md-3 text-center">
+                        <div class="col-4 col-md-3 text-center wow zoomIn">
                             <img src="img/servicios/seo.png" alt="" class="img-fluid">
                             <h5>CAMPAÑAS DE<br> COMUNICACIÓN:<br>SEO, SEM, SMO</h5>
                         </div>
@@ -331,11 +333,11 @@
     <section id="contacto">
         <div class="container">
             <div class="row justify-content-around">
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-lg-5">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881.2782122502813!2d-99.21380284300899!3d19.431562439193236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d202202f7d0721%3A0x2b8e5b86da7e1f5f!2sPiso+4%2C+Sierra+Candela+111%2C+Lomas+de+Chapultepec+V+Secc%2C+11000+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1542378470669" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
                     <h5 class="text-center text-white my-5"><span class="realce">Sierra Candela 111</span>, Piso 4, Lomas de Chapultepec, <span class="realce">11000, CDMX,</span> México</h5>
                 </div>
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-lg-5">
                     <!--Section: Contact v.2-->
                     <section class="mb-4">
 
@@ -343,7 +345,7 @@
 
                             <!--Grid column-->
                             <div class="col-md-10 mb-md-0 mb-5">
-                                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                                <form id="contact-form" name="contact-form" action="PHPMailer/contacto.php" method="POST">
 
                                     <!--Grid row-->
                                     <div class="row">
@@ -351,7 +353,7 @@
                                         <!--Grid column-->
                                         <div class="col-md-12">
                                             <div class="md-form mb-0">
-                                                <input type="text" id="name" name="name" class="form-control">
+                                                <input type="text" id="name" name="nombre" class="form-control">
                                                 <label for="name" class="">Nombre</label>
                                             </div>
                                         </div>
@@ -373,7 +375,7 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="md-form mb-0">
-                                                <input type="tel" id="telefono" name="tel" class="form-control">
+                                                <input type="tel" id="telefono" name="telefono" class="form-control">
                                                 <label for="telefono" class="">Teléfono</label>
                                             </div>
                                         </div>
@@ -387,18 +389,26 @@
                                         <div class="col-md-12">
 
                                             <div class="md-form">
-                                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                                <textarea type="text" id="message" name="mensaje" rows="2" class="form-control md-textarea"></textarea>
                                                 <label for="message">Mensaje</label>
                                             </div>
                                         </div>
                                     </div>
                                     <!--Grid row-->
 
+                                    <div class="row">
+
+                                        <!--Grid column-->
+                                        <div class="col-md-12">
+
+                                            <div class="md-form">
+                                               <button type="submit" class="btn btn-primary waves-effect realce">Enviar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </form>
 
-                                <div class="text-center text-md-left">
-                                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
-                                </div>
                                 <div class="status"></div>
                             </div>
                             <!--Grid column-->
@@ -435,11 +445,11 @@
                         </div>
                     </div>
                      <div class="row">
-                        <div class="col-2"><img src="img/redes/face2.png" alt="" class="img-fluid"></div>
-                        <div class="col-2"><img src="img/redes/insta2.png" alt="" class="img-fluid"></div>
-                        <div class="col-2"><img src="img/redes/linkedin.png" alt="" class="img-fluid"></div>
-                        <div class="col-2"><img src="img/redes/twitter2.png" alt="" class="img-fluid"></div>
-                        <div class="col-2"><img src="img/redes/youtube2.png" alt="" class="img-fluid"></div>
+                        <div class="col-2"><a href="https://www.facebook.com/wivomedia" target="_blank"><img src="img/redes/face2.png" alt="" class="img-fluid"></a></div>
+                        <div class="col-2"><a href="https://www.instagram.com/wivomedia" target="_blank"><img src="img/redes/insta2.png" alt="" class="img-fluid"></a></div>
+                        <div class="col-2"><a href="https://www.linkedin.com/company/wivomedia" target="_blank"><img src="img/redes/linkedin.png" alt="" class="img-fluid"></a></div>
+                        <div class="col-2"><a href="https://twitter.com/MediaWivo" target="_blank"><img src="img/redes/twitter2.png" alt="" class="img-fluid"></a></div>
+                        <div class="col-2"><a href="https://www.youtube.com/channel/UCmU51CjTrP6jtk0XOKDb5Fw" target="_blank"><img src="img/redes/youtube2.png" alt="" class="img-fluid"></a></div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
