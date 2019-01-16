@@ -213,4 +213,56 @@ header{
     color: #fff;
 }
 
+#moveNav{
+    display: none;
+}
+.fixed-top{
+    position: fixed;
+}
 
+.flip-x {
+    width: 100%;
+    background-color: red;
+}
+
+
+
+
+/* Estilos del hover*/
+
+
+
+.ih-item.square.effect6 .info p {
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 15px 15px 15px;
+    text-align: center;
+    -webkit-transition: all 0.35s 0.1s linear;
+    -moz-transition: all 0.35s 0.1s linear;
+    transition: all 0.35s 0.1s linear;
+}
+
+.ih-item.circle .img {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  border-radius: 50%;
+}
+
+
+
+/*Estilos de la ventana modal*/
+.modal-dialog.cascading-modal.modal-avatar .modal-header {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: -6rem 0 -1rem;
+}
+
+.modal-dialog.cascading-modal.modal-avatar .modal-header img {
+    width: 100px;
+    -webkit-box-shadow: 0 3px 7px 0 rgba(0,0,0,.2), 0 3px 10px 0 rgba(0,0,0,.19);
+    box-shadow: 0 3px 7px 0 rgba(0,0,0,.2), 0 3px 10px 0 rgba(0,0,0,.19);
+    margin-left: auto;
+    margin-right: auto;
+}

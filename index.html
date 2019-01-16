@@ -2,9 +2,14 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <title>Wivo Media</title>
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
-    <title>Wivo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Empresa especializada en el diseño, desarrollo e implementación de estrategias efectivas de Marketing Digital y Tradicional" />
+    <meta name="keywords" content="Diseño, Desarrollo, Implementación de estrategias efectivas de Marketing Digital y Tradicional" />
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -13,8 +18,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.14/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/ihover.css">
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/responsive.css">
+
     <link rel="stylesheet" href="css/grid.css">
     <script src="js/modernizr-custom.js"></script>
 </head>
@@ -25,11 +32,21 @@
         <div class="container">
             <div class="row justify-content-end">
                 <div class="col-7 col-md-6 col-lg-4">
-                    <a href="https://www.facebook.com/wivomedia" target="_blank"><div id="face" class="redes"></div></a>
-                    <a href="https://www.instagram.com/wivomedia" target="_blank"><div id="instagram" class="redes"></div></a>
-                    <a href="https://www.linkedin.com/company/wivomedia" target="_blank"><div id="linkedin" class="redes"></div></a>
-                    <a href="https://twitter.com/MediaWivo" target="_blank"><div id="twitter" class="redes"></div></a>
-                    <a href="https://www.youtube.com/channel/UCmU51CjTrP6jtk0XOKDb5Fw" target="_blank"><div id="youtube" class="redes"></div></a>
+                    <a href="https://www.facebook.com/wivomedia" target="_blank">
+                        <div id="face" class="redes"></div>
+                    </a>
+                    <a href="https://www.instagram.com/wivomedia" target="_blank">
+                        <div id="instagram" class="redes"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/company/wivomedia" target="_blank">
+                        <div id="linkedin" class="redes"></div>
+                    </a>
+                    <a href="https://twitter.com/WivoMedia" target="_blank">
+                        <div id="twitter" class="redes"></div>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCmU51CjTrP6jtk0XOKDb5Fw" target="_blank">
+                        <div id="youtube" class="redes"></div>
+                    </a>
                 </div>
                 <div class="col-5 col-md-4 col-lg-4">
                     <p class="white-text pt-3 float-lg-right"><img src="img/redes/tel.png" id="tel"> 52 55 5202 1600</p>
@@ -74,6 +91,73 @@
         </div>
     </nav>
     <!--/.Navbar-->
+
+
+    <div id="moveNav">
+        <nav id="sociales">
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-7 col-md-6 col-lg-4">
+                        <a href="https://www.facebook.com/wivomedia" target="_blank">
+                            <div id="face" class="redes"></div>
+                        </a>
+                        <a href="https://www.instagram.com/wivomedia" target="_blank">
+                            <div id="instagram" class="redes"></div>
+                        </a>
+                        <a href="https://www.linkedin.com/company/wivomedia" target="_blank">
+                            <div id="linkedin" class="redes"></div>
+                        </a>
+                        <a href="https://twitter.com/WivoMedia" target="_blank">
+                            <div id="twitter" class="redes"></div>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCmU51CjTrP6jtk0XOKDb5Fw" target="_blank">
+                            <div id="youtube" class="redes"></div>
+                        </a>
+                    </div>
+                    <div class="col-5 col-md-4 col-lg-4">
+                        <p class="white-text pt-3 float-lg-right"><img src="img/redes/tel.png" id="tel"> 52 55 5202 1600</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark background-color">
+            <div class="container">
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="#" onclick="$('#header').animatescroll({scrollSpeed:2000,easing:'easeOutCirc'});"><img src="img/logoNav.png" alt="" id="logoNav"></a>
+
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                    <!-- Links -->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="$('#nosotros').animatescroll({scrollSpeed:2000,easing:'easeOutCirc'});">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="$('#servicios').animatescroll({scrollSpeed:2000,easing:'easeOutCirc'});">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="$('#diferenciadores').animatescroll({scrollSpeed:2000,easing:'easeOutCirc'});">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="$('#contact-top').animatescroll({scrollSpeed:2000,easing:'easeOutCirc'});">Contacto</a>
+                        </li>
+                    </ul>
+                    <!-- Links -->
+
+
+                </div>
+                <!-- Collapsible content -->
+            </div>
+        </nav>
+        <!--/.Navbar-->
+    </div>
 
     <header class="mt-5">
 
@@ -123,20 +207,168 @@
                     <img src="img/elipseServIzq.png" alt="" class="img-fluid float-left">
                 </div>
 
-                <div class="col-8">
+                <!-----------------------------------------------------------
+                -----------------------------------------------------------
+
+                    SERVICIOS PARA ESCRITORIO
+
+                -----------------------------------------------------------
+                ----------------------------------------------------------->
+
+
+                <div class="col-8 d-none d-lg-block">
                     <div class="row justify-content-center">
-                        <div class="col-4 col-lg-2 text-center wow zoomIn">
+                        <div class="col-4 col-lg-3 text-center wow zoomIn">
+                            <div class="ih-item square effect6 from_top_and_bottom"><a href="#">
+                                    <div class="img"><img src="img/servDesktop/media-planing.jpg" alt="MEDIA PLANNING"></div>
+                                    <div class="info">
+                                        <h3>MEDIA PLANNING</h3>
+                                        <p>Identificamos los mejores medios para comunicar sus diferenciadores y amplificar sus esfuerzos.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-4 col-lg-3 text-center wow zoomIn">
+                            <div class="ih-item square effect6 from_top_and_bottom"><a href="#">
+                                    <div class="img"><img src="img/servDesktop/paid-media.jpg" alt="MEDIA PLANNING"></div>
+                                    <div class="info">
+                                        <h3>PAID MEDIA</h3>
+                                        <p>Cubrimos todas las posibilidades de media placements con los mayores resultados y estándares de calidad gracias a nuestras herramientas de desarrollo propio y el partnership con las mejores plataformas de tecnología.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-4 col-lg-3 text-center wow zoomIn">
+                            <div class="ih-item square effect6 from_top_and_bottom"><a href="#">
+                                    <div class="img"><img src="img/servDesktop/performance.jpg" alt="MEDIA PLANNING"></div>
+                                    <div class="info">
+                                        <h3>PERFORMANCE</h3>
+                                        <p class="white-text">El verdadero performance no te hace pagar por lo que no usas, por eso absorbemos la inversión por ti para que sólo pagues por resultado obtenido: CPA, CPL, CPD y CPI.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-4 col-lg-3 text-center wow zoomIn">
+                            <div class="ih-item square effect6 from_top_and_bottom"><a href="#">
+                                    <div class="img"><img src="img/servDesktop/performance.jpg" alt="MEDIA PLANNING"></div>
+                                    <div class="info">
+                                        <h3>PERFORMANCE</h3>
+                                        <p class="white-text">El verdadero performance no te hace pagar por lo que no usas, por eso absorbemos la inversión por ti para que sólo pagues por resultado obtenido: CPA, CPL, CPD y CPI.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="row justify-content-around mt-5">
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
+                            <img src="img/servicios/digital.png" alt="" class="img-fluid">
+                            <h5>DIGITAL ADVERTISING SOLUTIONS</h5>
+                        </div>
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
+                            <img src="img/servicios/inapp.png" alt="" class="img-fluid">
+                            <h5>INAPP ADS</h5>
+                        </div>
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
+                            <img src="img/servicios/geoq.png" alt="" class="img-fluid">
+                            <h5>GEOQ</h5>
+                        </div>
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
+                            <img src="img/servicios/selling.png" alt="" class="img-fluid">
+                            <h5>WHATSAPP SELLING</h5>
+                        </div>
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
+                            <img src="img/servicios/social_media.png" alt="" class="img-fluid">
+                            <h5>SOCIAL MEDIA SELECT</h5>
+                        </div>
+
+                        <!--Separador  de columnas -->
+                        <div class="w-100 d-none d-md-block mt-5"></div>
+
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
+                            <img src="img/servicios/games.png" alt="" class="img-fluid">
+                            <h5>MOBILE GAMES ADDS</h5>
+                        </div>
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
+                            <img src="img/servicios/marketing.png" alt="" class="img-fluid">
+                            <h5>INBOUND MARKETING</h5>
+                        </div>
+                        <div class="col-4 col-md-2 text-center wow zoomIn">
+                            <img src="img/servicios/wifi.png" alt="" class="img-fluid">
+                            <h5>SOCIAL WIFI</h5>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 text-center my-5 wow zoomIn">
+                            <h2 class="subtituloServ text-center mb-0 mb-md-3">
+                                Branding, Brand Add Ons y Brand Management
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center mt-0 mt-md-5">
+                        <div class="col-4 col-md-3 text-center wow zoomIn">
+                            <img src="img/servicios/brands.png" alt="" class="img-fluid">
+                            <h5>IDENTIDAD CORPORATIVA</h5>
+                        </div>
+                        <div class="col-4 col-md-3 text-center wow zoomIn">
+                            <img src="img/servicios/apps.png" alt="" class="img-fluid">
+                            <h5>DESARROLLO WEB Y APPS</h5>
+                        </div>
+                        <div class="col-4 col-md-3 text-center wow zoomIn">
+                            <img src="img/servicios/animacion.png" alt="" class="img-fluid">
+                            <h5>ANIMACIÓN DIGITAL</h5>
+                        </div>
+                        <div class="col-4 col-md-3 text-center wow zoomIn">
+                            <img src="img/servicios/grafico.png" alt="" class="img-fluid">
+                            <h5>DISEÑO GRÁFICO Y EDITORIAL</h5>
+                        </div>
+
+                        <!--Separador  de columnas -->
+                        <div class="w-100 d-none d-md-block mt-5"></div>
+
+                        <div class="col-4 col-md-3 text-center wow zoomIn">
+                            <img src="img/servicios/fotografia.png" alt="" class="img-fluid">
+                            <h5>FOTOGRAFÍA Y VIDEO</h5>
+                        </div>
+                        <div class="col-4 col-md-3 text-center wow zoomIn">
+                            <img src="img/servicios/seo.png" alt="" class="img-fluid">
+                            <h5>CAMPAÑAS DE<br> COMUNICACIÓN:<br>SEO, SEM, SMO</h5>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-----------------------------------------------------------
+                -----------------------------------------------------------
+
+                    SERVICIOS PARA EL CELULAR
+
+                -----------------------------------------------------------
+                ----------------------------------------------------------->
+
+                <div class="col-8 d-block d-lg-none">
+                    <div class="row justify-content-center">
+                        <div class="col-4 col-lg-2 text-center wow zoomIn" data-toggle="modal" data-target="#media-planing">
                             <img src="img/servicios/planning.png" alt="" class="img-fluid">
                             <h5>MEDIA PLANNING</h5>
                         </div>
-                        <div class="col-4 col-lg-2 text-center wow zoomIn">
+                        <div class="col-4 col-lg-2 text-center wow zoomIn" data-toggle="modal" data-target="#paid-media">
                             <img src="img/servicios/paid.png" alt="" class="img-fluid">
                             <h5>PAID MEDIA</h5>
                         </div>
                         <!--Separador  de columnas -->
                         <div class="w-100 d-block d-md-none"></div>
 
-                        <div class="col-4 col-lg-2 text-center wow zoomIn">
+                        <div class="col-4 col-lg-2 text-center wow zoomIn" data-toggle="modal" data-target="#performance">
                             <img src="img/servicios/performance.png" alt="" class="img-fluid">
                             <h5>PERFORMANCE</h5>
                         </div>
@@ -226,12 +458,94 @@
 
                 </div>
 
+
                 <div class="col-2 pr-0">
                     <img src="img/elipseServDer.png" alt="" class="img-fluid float-right">
                 </div>
             </div>
         </div>
     </section>
+
+    <!-----------------------------------------------------------
+    -----------------------------------------------------------
+
+        Ventanas Modales de los servicios del celular
+
+    -----------------------------------------------------------
+    ----------------------------------------------------------->
+
+
+    <!-- Modal Media PLaning-->
+    <div class="modal fade" id="media-planing" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered cascading-modal modal-avatar modal-sm" role="document">
+            <div class="modal-content">
+
+        <!--Header-->
+        <div class="modal-header">
+          <img src="img/servicios/planning.png" class="rounded-circle img-responsive" alt="MEDIA PLANING">
+        </div>
+        <!--Body-->
+        <div class="modal-body text-center mb-1">
+
+        <h3 class="mt-1 mb-2">MEDIA PLANING</h3>
+        <p>Identificamos los mejores medios para comunicar sus diferenciadores y amplificar sus esfuerzos.</p>
+
+          <div class="text-center mt-4">
+            <button class="btn btn-cyan waves-effect waves-light" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+
+      </div>
+        </div>
+    </div>
+
+     <!-- Modal Media PLaning-->
+    <div class="modal fade" id="paid-media" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered cascading-modal modal-avatar modal-sm" role="document">
+            <div class="modal-content">
+
+        <!--Header-->
+        <div class="modal-header">
+          <img src="img/servicios/paid.png" class="rounded-circle img-responsive" alt="MEDIA PLANING">
+        </div>
+        <!--Body-->
+        <div class="modal-body text-center mb-1">
+
+        <h3 class="mt-1 mb-2">PAID MEDIA</h3>
+        <p>Cubrimos todas las posibilidades de media placements con los mayores resultados y estándares de calidad gracias a nuestras herramientas de desarrollo propio y el partnership con las mejores plataformas de tecnología.</p>
+
+          <div class="text-center mt-4">
+            <button class="btn btn-cyan waves-effect waves-light" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+
+      </div>
+        </div>
+    </div>
+
+     <!-- Modal PERFORMANCE-->
+    <div class="modal fade" id="performance" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered cascading-modal modal-avatar modal-sm" role="document">
+            <div class="modal-content">
+
+        <!--Header-->
+        <div class="modal-header">
+          <img src="img/servicios/performance.png" class="rounded-circle img-responsive" alt="MEDIA PLANING">
+        </div>
+        <!--Body-->
+        <div class="modal-body text-center mb-1">
+
+        <h3 class="mt-1 mb-2">PERFORMANCE</h3>
+        <p>El verdadero performance no te hace pagar por lo que no usas, por eso absorbemos la inversión por ti para que sólo pagues por resultado obtenido: CPA, CPL, CPD y CPI.</p>
+
+          <div class="text-center mt-4">
+            <button class="btn btn-cyan waves-effect waves-light" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+
+      </div>
+        </div>
+    </div>
 
 
     <section id="proyectos">
@@ -289,9 +603,9 @@
                     </button>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-sm-6">
-                    <img src="img/diferenciadores.png" class="img-fluid" alt="">
+            <div class="row justify-content-center">
+                <div class="col-8 col-sm-6 mb-5">
+                    <img src="img/diferenciadores.png" class="img-fluid d-block mx-auto" alt="">
                 </div>
                 <div class="col-12 col-sm-6">
                     <h2 class="text-right text-white">En <span class="realce">Wivo Media</span> nos adaptamos al cambio
@@ -333,8 +647,8 @@
     <section id="contacto">
         <div class="container">
             <div class="row justify-content-around">
-                <div class="col-12 col-lg-5">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881.2782122502813!2d-99.21380284300899!3d19.431562439193236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d202202f7d0721%3A0x2b8e5b86da7e1f5f!2sPiso+4%2C+Sierra+Candela+111%2C+Lomas+de+Chapultepec+V+Secc%2C+11000+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1542378470669" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div class="col-12 col-lg-7">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881.2782122502813!2d-99.21380284300899!3d19.431562439193236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d202202f7d0721%3A0x2b8e5b86da7e1f5f!2sPiso+4%2C+Sierra+Candela+111%2C+Lomas+de+Chapultepec+V+Secc%2C+11000+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1542378470669" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                     <h5 class="text-center text-white my-5"><span class="realce">Sierra Candela 111</span>, Piso 4, Lomas de Chapultepec, <span class="realce">11000, CDMX,</span> México</h5>
                 </div>
                 <div class="col-12 col-lg-5">
@@ -402,7 +716,7 @@
                                         <div class="col-md-12">
 
                                             <div class="md-form">
-                                               <button type="submit" class="btn btn-primary waves-effect realce">Enviar</button>
+                                                <button type="submit" class="btn btn-primary waves-effect realce">Enviar</button>
                                             </div>
                                         </div>
                                     </div>
@@ -441,19 +755,19 @@
                             <img src="img/redes/mail-blue.png" class="float-right" alt="">
                         </div>
                         <div class="col-6">
-                            <h5 class="white-text">contacto@wivo.com </h5>
+                            <h5 class="white-text"><a href="mailto:ontacto@wivo.mx" class="white-text">contacto@wivo.mx</a></h5>
                         </div>
                     </div>
-                     <div class="row">
+                    <div class="row">
                         <div class="col-2"><a href="https://www.facebook.com/wivomedia" target="_blank"><img src="img/redes/face2.png" alt="" class="img-fluid"></a></div>
                         <div class="col-2"><a href="https://www.instagram.com/wivomedia" target="_blank"><img src="img/redes/insta2.png" alt="" class="img-fluid"></a></div>
                         <div class="col-2"><a href="https://www.linkedin.com/company/wivomedia" target="_blank"><img src="img/redes/linkedin.png" alt="" class="img-fluid"></a></div>
-                        <div class="col-2"><a href="https://twitter.com/MediaWivo" target="_blank"><img src="img/redes/twitter2.png" alt="" class="img-fluid"></a></div>
+                        <div class="col-2"><a href="https://twitter.com/WivoMedia" target="_blank"><img src="img/redes/twitter2.png" alt="" class="img-fluid"></a></div>
                         <div class="col-2"><a href="https://www.youtube.com/channel/UCmU51CjTrP6jtk0XOKDb5Fw" target="_blank"><img src="img/redes/youtube2.png" alt="" class="img-fluid"></a></div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
-                   <img src="img/wivoLogo.svg" alt="" class="img-fluid">
+                    <img src="img/wivoLogo.svg" alt="" class="img-fluid">
                 </div>
 
                 <div class="col-12 align-self-end">

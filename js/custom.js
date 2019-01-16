@@ -40,10 +40,12 @@ $grid.imagesLoaded().progress( function() {
 /// Scroll Nav
 
  $(window).scroll(function(){
-    if($(this).scrollTop()>65){
-        $('nav#moveNav').addClass('fixed-top ');
+    if($(this).scrollTop()>200){
+        $('#moveNav').addClass('fixed-top');
+        $('#moveNav').fadeIn();
     }else{
-        $('nav#moveNav').removeClass('fixed-top ');
+        $('#moveNav').removeClass('fixed-top');
+        $('#moveNav').fadeOut();
     }
 });
 
